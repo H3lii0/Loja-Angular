@@ -1,0 +1,19 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    width: 350px;
+}
+
+.img {
+    height: 300px;
+    object-fit: contain;
+}
+
+.preco {
+    font-size: larger;
+    color: green;
+}

@@ -1,0 +1,24 @@
+.mat-toolbar-row {
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    border: solid 1px rgb(114, 113, 113);
+    border-radius: 3px;
+    border-color: rgb(114, 113, 113) ;
+}
+
+.active {
+    border-radius: 3px;
+    background-color: rgb(114, 113, 113);
+}

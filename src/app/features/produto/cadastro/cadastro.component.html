@@ -1,0 +1,15 @@
+
+<div class="msg">
+    <p-messages [(value)]="messages" [enableService]="false" [closable]="false"></p-messages>
+</div>
+<div class="form">
+    <form class="">
+        <input type="text" placeholder="Titulo" pInputText [(ngModel)]="nome" [ngModelOptions]="{standalone: true}"/>
+        <input type="text" placeholder="Preço" pInputText [(ngModel)]="preco" [ngModelOptions]="{standalone: true}"/>
+        <input type="text" placeholder="Descrição" pInputText [(ngModel)]="descricao" [ngModelOptions]="{standalone: true}"/>
+        <input type="number" min="1" placeholder="Estoque" pInputText [(ngModel)]="estoque" [ngModelOptions]="{standalone: true}" />
+        <div class="botao">
+            <p-button label="Salvar" (onClick)="salvarProduto()"></p-button>
+        </div>
+    </form>
+</div>

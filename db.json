@@ -1,0 +1,66 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Teclado Gamer",
+      "preco": "150",
+      "imagemUrl": "https://m.media-amazon.com/images/I/61nvk16RZrL._AC_SX679_.jpg",
+      "descricao": "Teclado gamer RGB multi-devices",
+      "estoque": 15
+    },
+    {
+      "id": "2",
+      "nome": "Mouse Gamer",
+      "preco": "59",
+      "imagemUrl": "https://http2.mlstatic.com/D_NQ_NP_906432-MLU72418600665_102023-O.webp",
+      "descricao": "Mouse gamer RGB 1200dpi",
+      "estoque": 43
+    },
+    {
+      "id": "3",
+      "nome": "Monitor Ultra Wide",
+      "preco": "1699",
+      "imagemUrl": "https://m.media-amazon.com/images/I/51Ufkd4a13L._AC_SX679_.jpg",
+      "descricao": "Monitor Ultra Wide 29 polegadas IPS 144ms",
+      "estoque": 4
+    },
+    {
+      "id": "4",
+      "nome": "Notebook Gamer",
+      "preco": "5000",
+      "imagemUrl": "https://m.media-amazon.com/images/I/61tegGxILZL._AC_SX679_.jpg",
+      "descricao": "Notebook Gamer com placa dedicada",
+      "estoque": 3
+    }
+  ],
+  "clientes": [
+    {
+      "nome": "Alexandre",
+      "idade": 20,
+      "sexo": "m",
+      "salario": "10000",
+      "id": "fee4"
+    },
+    {
+      "nome": "Roberto",
+      "idade": 33,
+      "sexo": "m",
+      "salario": "11000",
+      "id": "15d6"
+    },
+    {
+      "nome": "Maura",
+      "idade": 23,
+      "sexo": "f",
+      "salario": "12000",
+      "id": "548b"
+    },
+    {
+      "nome": "Claudia",
+      "idade": 22,
+      "sexo": "f",
+      "salario": "13000",
+      "id": "2b2e"
+    }
+  ]
+}

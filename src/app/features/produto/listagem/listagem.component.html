@@ -1,0 +1,13 @@
+<h1>Produtos</h1>
+<div class="card">
+    <p-messages [(value)]="messages" [enableService]="false" [closable]="false"></p-messages>
+</div>
+<div class="flex">
+    <p-card class="card" header=" {{produto.nome}}" subheader="Preço: {{produto.preco | currency: 'BRL'}}" *ngFor=" let produto of produtos" (click)="editarProduto(produto)">
+        <ng-template pTemplate="header">
+            <img class="img" alt="Card" src="{{produto.imagemUrl}}" />
+        </ng-template>
+        <p>Decrição: {{produto.descricao}}</p>
+        <p>Quantidade: {{produto.estoque}}</p>
+    </p-card>
+</div>
