@@ -1,13 +1,13 @@
-<h1>Produtos</h1>
-<div class="card">
-    <p-messages [(value)]="messages" [enableService]="false" [closable]="false"></p-messages>
+<div class="adicionar">
+    <p-button icon="pi pi-plus" pTooltip="Cadastrar novo produto" styleClass="p-button-rounded" (onClick)="criarNovoProduto()"></p-button>
 </div>
 <div class="flex">
-    <p-card class="card" header=" {{produto.nome}}" subheader="Preço: {{produto.preco | currency: 'BRL'}}" *ngFor=" let produto of produtos" (click)="editarProduto(produto)">
+    <p-card class="card" header=" {{produto.nome}}" subheader="Preço: {{produto.preco | currency: 'BRL'}}" *ngFor=" let produto of produtos">
         <ng-template pTemplate="header">
             <img class="img" alt="Card" src="{{produto.imagemUrl}}" />
         </ng-template>
         <p>Decrição: {{produto.descricao}}</p>
         <p>Quantidade: {{produto.estoque}}</p>
+        <p-button label="Editar" (click)="editarProduto(produto)"></p-button>
     </p-card>
 </div>

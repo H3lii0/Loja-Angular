@@ -23,4 +23,8 @@ export class ProdutoService {
   atualizarProduto(produto: Produto): Observable<any> {
     return this.http.put<any>(`${this.apiUrl}produtos/${produto.id}`, produto)
   }
+
+  cadastrarProduto(produto: Produto): Observable<any> {
+    return this.http.post(`${this.apiUrl}produtos`, produto)
+  }
 }

@@ -28,16 +28,13 @@ export class ListagemComponent implements OnInit{
       this.produtos = produtos;
       this.dataSource = new MatTableDataSource(this.produtos)
     })
-    
-    const navigation = this.router.getCurrentNavigation();
-    const state = navigation?.extras.state as { message: Message };
-    
-    if (state && state.message) {
-      this.messages = [state.message];
-    }
   }
 
   editarProduto(produto: Produto) {
     this.router.navigate(['produto', 'editar-produto', produto.id]);
+  }
+
+  criarNovoProduto() {
+    this.router.navigate(['produto', 'novo-produto']);
   }
 }

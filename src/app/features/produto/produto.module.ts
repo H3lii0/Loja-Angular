@@ -17,6 +17,7 @@ import { ToastModule } from 'primeng/toast';
 import { MessagesModule } from 'primeng/messages';
 import { MessageModule } from 'primeng/message';
 import { MessageService } from 'primeng/api';
+import { TooltipModule } from 'primeng/tooltip';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { MessageService } from 'primeng/api';
     SplitButtonModule,
     ToastModule,
     MessagesModule,
-    MessageModule
+    MessageModule,
+    TooltipModule
   ]
 })
 export class ProdutoModule { }

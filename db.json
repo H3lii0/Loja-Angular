@@ -4,9 +4,9 @@
       "id": "1",
       "nome": "Teclado Gamer",
       "preco": "150",
-      "imagemUrl": "https://m.media-amazon.com/images/I/61nvk16RZrL._AC_SX679_.jpg",
       "descricao": "Teclado gamer RGB multi-devices",
-      "estoque": 15
+      "estoque": 15,
+      "imagemUrl": "https://m.media-amazon.com/images/I/61nvk16RZrL._AC_SX679_.jpg"
     },
     {
       "id": "2",
@@ -30,6 +30,13 @@
       "preco": "5000",
       "imagemUrl": "https://m.media-amazon.com/images/I/61tegGxILZL._AC_SX679_.jpg",
       "descricao": "Notebook Gamer com placa dedicada",
+      "estoque": 3
+    },
+    {
+      "id": 5,
+      "nome": "OI",
+      "preco": "1500",
+      "descricao": "aaaaaaaAAAAAAAAAAAA",
       "estoque": 3
     }
   ],
